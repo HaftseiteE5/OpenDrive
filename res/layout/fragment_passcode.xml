@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llPasscode"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_splash_color"
+              android:orientation="vertical">
+    
+        <include
+        android:id="@+id/passcodeActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar" />
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/background_splash_color">
+
+        <LinearLayout
+                android:id="@+id/contentLinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/passcodeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:text="@string/passcode_title"
+                android:textColor="@color/settings_title"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+        <View style="@style/SettingsTitleBorder"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+            android:id="@+id/rlTurnPassCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_settings_bg"/>
+
+        <TextView
+                android:id="@+id/tvTurnPassCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/turn_pass_code_on"
+                android:textColor="@color/BLACK_TEXTCOLOR"
+                android:textSize="@dimen/btn_settings_text_size"/>
+    </RelativeLayout>
+
+    <View style="@style/SettingsBorder"/>
+
+
+    <RelativeLayout
+            android:id="@+id/rlChangePasscode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+        <TextView
+                android:id="@+id/tvChangePasscode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/change_pass_code"
+                android:textColor="@color/BLACK_TEXTCOLOR"
+                android:textSize="20sp"/>
+
+        <Button
+                android:id="@+id/btnAutoUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:drawableRight="@drawable/arrow"
+                android:textColor="@color/settings_blue"
+                android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <View style="@style/SettingsBorder"/>
+
+
+    <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/eraseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:text="@string/erase_data"
+                android:textColor="@color/settings_title"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+        <View style="@style/SettingsTitleBorder"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlEraseData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/tvEraseData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/erase_data"
+            android:textColor="@color/BLACK_TEXTCOLOR"
+            android:textSize="20sp"
+             />
+
+       <org.jraf.android.backport.switchwidget.Switch
+            android:id="@+id/switchEraseData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/settings_blue" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvEraseDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/erase_data_description"
+        android:textColor="@color/settings_title"
+        android:textSize="12sp" />
+
+    <View style="@style/SettingsBorder"/>
+
+</LinearLayout>
+        </ScrollView>
+        </LinearLayout>

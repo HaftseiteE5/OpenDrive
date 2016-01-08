@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/ivBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/desc_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/top_bar" >
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/rlActionBarItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivBackGround"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/ivBackGround"
+        android:layout_centerVertical="true" >
+
+        <ImageButton
+            android:id="@+id/ibRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@string/desc_refresh"
+            android:padding="@dimen/action_bar_item_padding"
+            android:src="@drawable/icon_refresh" />
+
+        <View
+            android:id="@+id/borderRefresh"
+            style="@style/ActionBarDivider"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="2px"
+            android:layout_marginTop="1px"
+            android:layout_toLeftOf="@id/ibRefresh" />
+
+        <View
+            android:id="@+id/borderActiveRefresh"
+            style="@style/ActionBarActiveItem"
+            android:layout_alignLeft="@id/borderRefresh"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ibNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ibRefresh"
+            android:background="@null"
+            android:contentDescription="@string/desc_new"
+            android:padding="@dimen/action_bar_item_padding"
+            android:src="@drawable/icon_new" />
+
+        <View
+            android:id="@+id/borderNew"
+            style="@style/ActionBarDivider"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="2px"
+            android:layout_marginTop="1px"
+            android:layout_toLeftOf="@id/ibNew" />
+
+        <View
+            android:id="@+id/borderActiveNew"
+            style="@style/ActionBarActiveItem"
+            android:layout_alignLeft="@id/borderNew"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@id/borderRefresh"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ibSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ibNew"
+            android:background="@null"
+            android:contentDescription="@string/desc_search"
+            android:padding="@dimen/action_bar_item_padding"
+            android:src="@drawable/icon_search" />
+
+        <View
+            android:id="@+id/borderSearch"
+            style="@style/ActionBarDivider"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="2px"
+            android:layout_marginTop="1px"
+            android:layout_toLeftOf="@id/ibSearch" />
+
+        <View
+            android:id="@+id/borderActiveSearch"
+            style="@style/ActionBarActiveItem"
+            android:layout_alignLeft="@id/borderSearch"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@id/borderNew"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@null"
+        android:contentDescription="@string/desc_home"
+        android:src="@drawable/icon_home" />
+
+    <ImageView
+        android:id="@+id/ivRootLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/desc_open_drive"
+        android:src="@drawable/icon_open_drive"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rlSearchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ibHome"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/etSearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" >
+
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/ibGoSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_search"
+            android:src="@drawable/icon_search" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvActionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ibHome"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"
+        android:icon="@drawable/icon_search"
+        android:showAsAction="always"
+        android:title="@string/menu_search_files"/>
+    <item
+        android:id="@+id/menu_new_folder"
+        android:icon="@drawable/icon_new"
+        android:showAsAction="always"
+        android:title="@string/menu_create_folder"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/icon_refresh"
+        android:showAsAction="always"
+        android:title="@string/menu_refresh"/>
+
+</menu>

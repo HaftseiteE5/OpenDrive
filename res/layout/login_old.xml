@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativeLayout_Login"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_login"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" >
+
+    <LinearLayout
+            android:id="@+id/bottom_linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+        <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+        <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                <LinearLayout
+                        android:id="@+id/linearLayout_Login"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <EditText
+                            android:id="@+id/editText_EmailAddress"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="Username or email"
+                            android:inputType="textEmailAddress"
+                            android:padding="10dp"
+                            android:textColor="#FFFFFF" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <LinearLayout
+                            android:id="@+id/linearLayout5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="#FFFFFF"
+                            android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <EditText
+                            android:id="@+id/editText_Password"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:padding="10dp"
+                            android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <Button android:textColor="#FFFFFF" android:textSize="22dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:id="@+id/button_Login" android:text="Log In" android:background="@drawable/btn_blue"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical" android:padding="5dp">
+                <LinearLayout android:id="@+id/linearLayout_Signup" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone">
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="Username or email" android:inputType="textEmailAddress" android:id="@+id/editText_Username" android:background="@null"></EditText>
+                    <LinearLayout android:id="@+id/LinearLayout01" android:background="#FFFFFF" android:layout_height="1dp" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:orientation="vertical" android:layout_marginLeft="10dp"></LinearLayout>
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="First name" android:inputType="textPersonName" android:id="@+id/editText_Firstname" android:background="@null"></EditText>
+                    <LinearLayout android:id="@+id/LinearLayout02" android:background="#FFFFFF" android:layout_height="1dp" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:orientation="vertical" android:layout_marginLeft="10dp"></LinearLayout>
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="Last name" android:inputType="textPersonName" android:id="@+id/editText_Lastname" android:background="@null"></EditText>
+                    <LinearLayout android:id="@+id/LinearLayout03" android:background="#FFFFFF" android:layout_height="1dp" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:orientation="vertical" android:layout_marginLeft="10dp"></LinearLayout>
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="Email address" android:inputType="textEmailAddress" android:id="@+id/editText_emailAddress_signup" android:background="@null"></EditText>
+                    <LinearLayout android:id="@+id/LinearLayout04" android:background="#FFFFFF" android:layout_height="1dp" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:orientation="vertical" android:layout_marginLeft="10dp"></LinearLayout>
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="Password" android:inputType="textPassword" android:id="@+id/editText_password_signup" android:background="@null"></EditText>
+                    <LinearLayout android:id="@+id/LinearLayout05" android:background="#FFFFFF" android:layout_height="1dp" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:orientation="vertical" android:layout_marginLeft="10dp"></LinearLayout>
+                    <EditText android:text="EditText" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:hint="Verify password" android:inputType="textPassword" android:id="@+id/editText_verify_password" android:background="@null"></EditText>
+                </LinearLayout>
+
+                <Button
+                        android:id="@+id/button_Signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign Up"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22dp"
+                        android:textStyle="bold" android:background="@drawable/btn_blue"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

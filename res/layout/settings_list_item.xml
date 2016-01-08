@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp" android:layout_alignParentTop="true"
+            android:text="@string/User" android:layout_alignParentLeft="true"
+            android:textColor="@color/BLACK_TEXTCOLOR"
+            android:textSize="14dp"
+            android:textStyle="bold" android:layout_marginTop="5dp"
+            />
+
+    <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/arrow"
+            android:padding="10dp"       android:layout_alignWithParentIfMissing="true"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:text="user name" android:textColor="@color/GRAY_TEXTCOLOR"
+            android:textSize="12dp"/>
+
+    <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:gravity="right" android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:text=">" android:textColor="@color/GRAY_TEXTCOLOR"
+            android:textSize="12dp"/>
+
+</RelativeLayout>

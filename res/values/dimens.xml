@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_default">10dp</dimen>
+    <dimen name="padding_default_middle">5dp</dimen>
+    <dimen name="menu_details_preview_size">100dp</dimen>
+    <dimen name="menu_details_btn_margin_top">20dp</dimen>
+    <dimen name="menu_details_file_name_size">24sp</dimen>
+    <dimen name="menu_details_file_size_size">12sp</dimen>
+    <dimen name="menu_details_preview_margin">20dp</dimen>
+    <dimen name="menu_details_btn_text_size">14sp</dimen>
+    
+    <dimen name="settings_btn_margin_top">20dp</dimen>
+    
+</resources>

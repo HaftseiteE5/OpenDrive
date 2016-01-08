@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/planActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlHomePlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planActionBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/tvHomePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvHomePlanDescription"
+            android:layout_alignParentLeft="false"
+            android:text="@string/txt_home_plan"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHomePlanPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignRight="@+id/tvHomePlanDescription"
+            android:text="@string/txt_home_plan_price"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/tvHomePlanDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHomePlan"
+            android:layout_centerHorizontal="true"
+            android:text="@string/txt_home_plan_description"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnHomePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHomePlanDescription"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_home_plan" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

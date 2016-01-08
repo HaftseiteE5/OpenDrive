@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenDrive</string>
+    <string name="server">http://ai1.opendrive.com</string>
+    <string name="operatioin_url">http://ai1.opendrive.com/api/1_3/1_3_14_3/od_operations.php</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="Account">Account</string>
+    <string name="User">User</string>
+    <string name="Space">Space</string>
+    <string name="AppVersion">App Version</string>
+    <string name="DeleteOfflineFiles">Delete offline files</string>
+    <string name="LogOut">Log Out</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="login">Login</string>
+    <string name="files_title">Files</string>
+    <string name="upload_title">Upload</string>
+    <string name="request_title">Request</string>
+    <string name="index_search_button_title">OK</string>
+    <string name="photos_title">Photos</string>
+    <string name="setting_title">Settings</string>
+    <string name="keep_me_title">Keep me logged in</string>
+    <string name="loginLabel">Login</string>
+    <string name="settings">Settings</string>
+    <string name="move_title">Move files</string>
+    <string name="enter_passcode_title">Passcode</string>
+    <string name="passcode_title">Passcode</string>
+
+    <!-- General -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="move">Move</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <!-- Validation Dialog -->
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_trash">Trash</string>
+    <string name="txt_warning">Warning</string>
+    <string name="txt_notification">Notification</string>
+    <string name="txt_close">Close</string>
+
+    <!-- Error Messages -->
+    <string name="emptyUsername">Please enter a username.</string>
+    <string name="emptyPassword">Please enter a password.</string>
+    <string name="authenticationIncorrect">Username or password incorrect.</string>
+    <string name="connection_error">Internet Connection Error</string>
+    <string name="freespace_not_enough">Free space is not enough</string>
+    <string name="sdcard_unmount">Please mount SDCard</string>
+    <string name="emptyfirstname">Please enter first name</string>
+    <string name="emptylastname">Please enter last name</string>
+    <string name="emptyverifypassword">Please verify password</string>
+    <string name="nomatchpassword">No match password</string>
+    <string name="emptyemail">Please enter email address</string>
+    <string name="switch_offline">Network unreachable. Switch to offline mode.</string>
+    <string name="network_restored">Network restored</string>
+    <string name="offline_first_time">Offline mode unavailable for the first launch.</string>
+    <string name="delete_db">You want delete offline DB.</string>
+    <string name="emptyfolder">Please enter folder name</string>
+
+    <!-- Loading Messages -->
+    <string name="txt_login">Login...</string>
+    <string name="txt_signingup">Signing up...</string>
+    <string name="txt_loading">Loading...</string>
+    <string name="txt_downloading">Downloading...</string>
+    <string name="txt_uploadding">Uploading...</string>
+    <string name="txt_deleting">Deleting...</string>
+    <string name="txt_renaming">Renaming&#8230;</string>
+    <string name="txt_moving">Moving&#8230;</string>
+
+    <!-- Title -->
+    <string name="txt_title">OpenDrive</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_welcome_splash">Welcome to the Cloud Workspace\nOnline storage, Backup &amp; Cloud Content Management</string>
+    <string name="msg_emailsubject">You just received file: %s</string>
+    <string name="msg_emailtext" formatted="false">Hi,\n\nThis is a link to file %s.\n\n%s\n\n\n.</string>
+    <string name="msg_confirm_deleteoffline" formatted="false">Do you want to delete \"%s\"?</string>
+    <string name="msg_confirm_trashoffline" formatted="false">Do you want to trash \"%s\"?</string>
+    <string name="msg_confirm_successdownload" formatted="false">File successfully stored</string>
+    <string name="msg_non_exist_file" formatted="false">No file on local.</string>
+    <string name="msg_non_exist_file_download" formatted="false">No file on local.\nDo You want to download it?</string>
+    <string name="msg_network_unreachable" formatted="false">Network unreachable.</string>
+    <string name="label_saveforoffline" formatted="false">Save for offline</string>
+    <string name="label_deleteoffline" formatted="false">Delete offline file</string>
+    <string name="label_file_download">File will be downloaded before open. Do you want to download "%s"?</string>
+    <string name="plan_title">Plan</string>
+
+    <!-- Action Bar -->
+    <string name="title_hint_search">Start searching</string>
+    <string name="menu_create_folder">Create folder</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search_files">Search files</string>
+    <string name="search_hint">Start searching</string>
+
+    <!-- Create new folder activity -->
+    <string name="create_new_folder">Create new folder</string>
+    <string name="new_folder_hint">Folder Name</string>
+
+    <!-- Toasts -->
+    <string name="link_copied">The link for %s has been copied</string>
+    <string name="same_name">New name is the same as the old one</string>
+    <string name="file_already_exists">File or folder with such name already exists</string>
+    <string name="all_content_erased">You have 10 failed passcode attempts\nAll content is erased</string>
+    <string name="no_email_clients">There are no email clients installed</string>
+
+    <!-- Dialogs -->
+    <string name="rename_alert_title">Rename</string>
+    <string name="rename_alert_message">Enter new name</string>
+
+    <!-- Action Item -->
+    <string name="action_item_share">Share</string>
+    <string name="action_item_copy_link">Copy link</string>
+    <string name="action_item_save_for_offline">Save for offline</string>
+    <string name="action_item_trash">Trash</string>
+    <string name="action_item_move">Move</string>
+    <string name="action_item_rename">Rename</string>
+
+    <!-- Settings -->
+    <string name="security">Security</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="passcode">Passcode Lock</string>
+    <string name="auto_upload">Auto Upload</string>
+    <string name="tell_friend">Tell A Friend</string>
+    <string name="delete_offline_files">Delete Offline Files</string>
+    <string name="used_suffix">used</string>
+    <string name="app_version_suffix">App version:</string>
+
+    <!-- PassCode -->
+    <string name="turn_pass_code_on">Turn Passcode On</string>
+    <string name="turn_pass_code_off">Turn Passcode Off</string>
+    <string name="change_pass_code">Change Passcode</string>
+    <string name="erase_data">Erase data</string>
+    <string name="erase_data_description">Erase all content in the app after 10 failed \n passcode attempts.</string>
+    <string name="enter_your_pass_code"><![CDATA[Enter your <b>OpenDrive</b> passcode ]]></string>
+    <string name="enter_your_old_pass_code">Enter your old passcode</string>
+    <string name="passcodes_not_match">Passcodes do not match</string>
+    <string name="passcodes_not_correct">Passcodes is not correct</string>
+
+    <!-- Content descriptions -->
+    <string name="desc_background">Background</string>
+    <string name="desc_refresh">Refresh</string>
+    <string name="desc_new">New folder</string>
+    <string name="desc_search">Search file</string>
+    <string name="desc_home">Home</string>
+    <string name="desc_open_drive">Open Drive</string>
+
+    <!-- Email -->
+    <string name="email_link_subject">You just received file:</string>
+    <string name="email_link_text">Hi,\n\nThis is a link to file</string>
+    <string name="send_mail_chooser_title">Send mail&#8230;</string>
+    <string name="share_file_chooser_title">Share file&#8230;</string>
+
+    <!-- Detail panel -->
+    <string name="btn_move">Move To Folder</string>
+    <string name="btn_rename">Rename</string>
+    <string name="btn_email_link">Email Link</string>
+    <string name="btn_save_offline">Save For Offline</string>
+    <string name="btn_delete_offline">Delete Offline File</string>
+
+    <!-- Plan -->
+    <string name="txt_plan">Unlimited/Business/Year</string>
+    <string name="txt_home_plan">Home Plan</string>
+    <string name="txt_home_plan_price">$49.99/year</string>
+    <string name="txt_home_plan_description">100GB Storage Space, 1GB Max File Size.</string>
+    <string name="btn_home_plan">Home Plan $49.99</string>
+
+    <!-- Access -->
+    <string name="access_public">Public</string>
+    <string name="access_hidden">Hidden</string>
+    <string name="access_private">Private</string>
+
+    <!-- Auto Upload -->
+    <string name="state">State</string>
+    <string name="folder">Folder</string>
+    <string name="folder_default">Root folder</string>
+    <string name="upload_option">Upload Option</string>
+    <string name="wi_fi_only">Wi-Fi only</string>
+    <string name="wi_fi_cell">Wi-Fi + Cell</string>
+    <string name="auto_upload_confirm">New Media files waiting for upload.\nDo You want to upload them now?</string>
+    <string name="remind_me">Remind me</string>
+
+</resources>

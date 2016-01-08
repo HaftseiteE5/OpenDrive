@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore" />
+    <issue id="Proguard">
+        <ignore path="proguard.cfg" />
+    </issue>
+    <issue id="UnknownId">
+        <ignore path="res\layout\main_backup.xml" />
+    </issue>
+</lint>

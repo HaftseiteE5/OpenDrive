@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical" android:layout_weight="14" android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/tema">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical" android:layout_weight="80">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical" android:gravity="center_horizontal" android:paddingBottom="10dp" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="0dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in to your account"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:background="@drawable/login_panel" android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="22dp" android:paddingLeft="30dp" android:paddingRight="30dp" android:paddingTop="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/address"
+                android:layout_height="0dp"
+                android:layout_weight="0.99" android:layout_width="match_parent" android:imeOptions="actionNext" android:singleLine="true" android:hint="Usename or email" android:textSize="13dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:inputType="textPassword" android:layout_width="match_parent" android:imeOptions="actionDone" android:singleLine="true" android:hint="Password" android:textSize="13dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.99">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" android:layout_weight="0.3">
+
+                    <Button
+                        android:id="@+id/button_Signup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Sign Up" android:textSize="12dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" android:layout_weight="0.7">
+
+                    <Button
+                        android:id="@+id/button_Login"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Log In" android:textSize="12dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

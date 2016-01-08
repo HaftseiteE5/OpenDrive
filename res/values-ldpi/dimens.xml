@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_default">4dp</dimen>
+    <dimen name="padding_default_middle">2dp</dimen>
+    <dimen name="action_bar_item_padding">9dp</dimen>
+    <dimen name="btn_settings_text_size">18sp</dimen>
+    <dimen name="menu_details_preview_size">90dp</dimen>
+    <dimen name="menu_details_btn_margin_top">5dp</dimen>
+    <dimen name="menu_details_btn_margin_left">2dp</dimen>
+    <dimen name="menu_details_file_name_size">18sp</dimen>
+    <dimen name="menu_details_file_name_pad_bot">2dp</dimen>
+    <dimen name="menu_details_file_size_size">12sp</dimen>
+    <dimen name="menu_details_preview_margin">2dp</dimen>
+    <dimen name="menu_details_preview_margin_left_right">5dp</dimen>
+    <dimen name="menu_details_btn_text_size">16sp</dimen>
+    
+    <dimen name="settings_btn_margin_top">10dp</dimen>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/keepTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/keep_me_title"
+            android:textColor="@color/BLACK_TEXTCOLOR"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/toggleButton"
+            android:layout_marginLeft="10dp"/>
+
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Plan/Year" android:textColor="@color/GRAY_TEXTCOLOR"
+            android:layout_marginRight="10dp" android:textSize="12dp"
+            android:id="@+id/toggleButton"
+            />
+
+</RelativeLayout>

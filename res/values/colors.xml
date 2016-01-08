@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="WIHTE_TEXTCOLOR">#FFFFFF</color>
+    <color name="BLACK_TEXTCOLOR">#000000</color>
+    <color name="BLUE_TEXTCOLOR">#0170BF</color>
+    <color name="GRAY_TEXTCOLOR">#4C566C</color>
+    <color name="GRAY_BGCOLOR">#ABABAB</color>
+    <color name="WITHE_BGCOLOR">#FFFFFF</color>
+ 	<color name="WHITE_TEXTCOLOR">#FFFFFF</color>
+ 	
+
+	<color name="offWhite">#DDDDDD</color>
+	<color name="brightRed">#FF0000</color>
+	<color name="brightGreen">#00FF00</color>
+	<color name="lightGray">#777777</color>
+	<color name="brightBlue">#0000FF</color>
+	<color name="darkBlue">#880000FF</color>
+	<color name="transparent">#000000FF</color>
+	<color name="transGray">#cc444444</color>
+    <color name="background_splash_color">#d5e1ed</color>
+    <color name="list_item_1">#d5e1ed</color>
+    <color name="list_item_2">#dee8f1</color>
+    
+    <color name="settings_title">#8c9093</color>
+    <color name="settings_border_title_gray">#b1b2b4</color>
+    <color name="settings_border_gray">#bbbbbb</color>
+    <color name="settings_blue">#7887b0</color>
+    
+    <color name="action_bar_divider">#6b7ca7</color>
+    <color name="action_bar_top_border">#88858e95</color>
+    <color name="action_bar_bottom_border_1">#858e95</color>
+    <color name="action_bar_bottom_border_2">#bcc6cf</color>
+    <color name="action_bar_active_item_bottom_border">#687ba5</color>
+    
+    <color name="detail_btn_text">#d8d8d8</color>
+    <color name="detail_file_name_text">#fdfdfd</color>
+    <color name="detail_file_size_text">#a7a7a7</color>
+    
+</resources>
